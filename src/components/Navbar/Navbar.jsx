@@ -16,21 +16,25 @@ const Navbar = ({ cartItems }) => {
     setIsMobileMenuOpen(!isMobileMenuOpen);
   };
 
+  const linkClass = ({ isActive }) =>
+    isActive ? 'text-green-600 font-bold text-xl ' : 'hover:text-gray-300 font-bold text-xl';
+
   const links = (
     <>
-      <NavLink to={'/'} className="hover:text-gray-300 font-bold">Home</NavLink>
-      <NavLink to={'dashboard'} className="hover:text-gray-300 font-bold">Dashboard</NavLink>
-      
-      <NavLink to={'about'} className="hover:text-gray-300 font-bold">About Us</NavLink>
+      <NavLink to="/" className={linkClass}>Home</NavLink>
+      <NavLink to="/dashboard" className={linkClass}>Dashboard</NavLink>
+      <NavLink to="/about" className={linkClass}>About Us</NavLink>
     </>
   );
 
+  const mobLinkClass = ({ isActive }) =>
+    isActive ? 'bg-purple-600 text-white font-bold' : 'hover:bg-purple-600 font-bold';
+
   const mobLinks = (
     <>
-      <NavLink to={'/'} className="block py-2 px-4 hover:bg-purple-600 font-bold">Home</NavLink>
-      <NavLink to={'/dashboard'} className="block py-2 px-4 hover:bg-purple-600 font-bold">Dashboard</NavLink>
-      
-      <NavLink to={'about'} className="block py-2 px-4 hover:bg-purple-600 font-bold">About Us</NavLink>
+      <NavLink to="/" className={mobLinkClass}>Home</NavLink>
+      <NavLink to="/dashboard" className={mobLinkClass}>Dashboard</NavLink>
+      <NavLink to="/about" className={mobLinkClass}>About Us</NavLink>
     </>
   );
 
@@ -38,12 +42,11 @@ const Navbar = ({ cartItems }) => {
     <div className='w-11/12 mx-auto'>
       {/* Navbar Section */}
       <nav
-        className={`py-4 px-6 md:px-12 flex justify-between items-center ${
-          isDefaultRoute ? 'bg-purple-500 text-white' : 'bg-white text-black'
-        }`}
+        className={`py-4 px-6 md:px-12 flex justify-between items-center ${isDefaultRoute ? 'bg-purple-500 text-white' : 'bg-white text-black'
+          }`}
       >
         {/* Logo */}
-        <div className="text-lg font-bold">
+        <div className="text-2xl font-bold">
           Gadget Heaven
         </div>
 
@@ -54,8 +57,8 @@ const Navbar = ({ cartItems }) => {
 
         {/* Icons - visible on all screen sizes */}
         <div className="flex items-center space-x-4">
-        {/* Cart Button with Conditional Item Count */}
-        <button aria-label="Cart" className="relative p-2 rounded-full bg-white text-purple-500 hover:bg-gray-200">
+          {/* Cart Button with Conditional Item Count */}
+          <button aria-label="Cart" className="relative p-2 rounded-full bg-white text-purple-500 hover:bg-gray-200">
             {/* <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13l-2 9h13a1 1 0 001-1v-9H7zm5-5v6m4-6v6M9 21h6" />
             </svg> */}

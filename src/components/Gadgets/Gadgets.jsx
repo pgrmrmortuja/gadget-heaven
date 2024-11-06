@@ -29,7 +29,7 @@ const Gadgets = () => {
     const filteredGadgets = filterGadgets();
 
     return (
-        <div className="w-11/12 mx-auto p-4 mt-96">
+        <div className="w-11/12 mx-auto p-4 mt-96 bg-white">
             {/* Section Heading */}
             <h2 className="text-2xl font-bold text-center mb-6">Explore Cutting-Edge Gadgets</h2>
 

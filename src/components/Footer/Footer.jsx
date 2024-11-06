@@ -8,7 +8,9 @@ const Footer = () => {
         <div className="text-center mb-8">
           <h2 className="text-2xl font-bold text-gray-900">Gadget Heaven</h2>
           <p className="text-gray-500 mt-2">Leading the way in cutting-edge technology and innovation.</p>
+          
         </div>
+
 
         {/* Links Section */}
         <div className="flex flex-col md:flex-row justify-center md:justify-between space-y-8 md:space-y-0">
@@ -43,6 +45,7 @@ const Footer = () => {
             </ul>
           </div>
         </div>
+        
       </div>
     </footer>
   );

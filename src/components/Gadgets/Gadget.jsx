@@ -18,7 +18,7 @@ const Gadget = ({ gadget }) => {
             <h3 className="text-lg font-semibold mb-1">
                 {product_title}
             </h3>
-            <p className="text-gray-500 mb-4">Price: {price}k</p>
+            <p className="text-gray-500 mb-4">Price: ${price}</p>
 
             <Link to={`/gadgets/${product_id}`}>
                 <button className="w-full py-2 text-purple-600 border border-purple-600 rounded-lg">View Details</button>

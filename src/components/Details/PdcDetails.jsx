@@ -41,7 +41,7 @@ const PdcDetails = () => {
 
 
             {/* Product Card Container */}
-            <div className='border p-4 w-full md:w-4/6 md:ml-48 -mt-56'>
+            <div className='border-4 rounded-2xl p-4 w-full md:w-4/6 md:ml-48 -mt-56'>
                 <div className="bg-white rounded-lg shadow-lg p-6 max-w-4xl mx-auto flex flex-col md:flex-row items-center gap-6 w-full">
                     {/* Product Image Placeholder */}
                     <div className="w-full md:w-1/3  bg-gray-300 rounded-lg h-60 mb-4 relative overflow-hidden">

@@ -32,7 +32,7 @@ const Banner = () => {
 
             {/* Image Section (Center Image) */}
 
-            <div className="absolute border w-full md:w-1/2 lg:w-4/6 bg-gray-100 p-4 bg-transparent backdrop-blur-xl mb-20 -mt-1 md:ml-48 ">
+            <div className="absolute border-4 rounded-2xl w-full md:w-1/2 lg:w-4/6 bg-gray-100 p-4 bg-transparent backdrop-blur-xl mb-20 -mt-1 md:ml-48 ">
                 {/* Image Container with Rounded Corners */}
                 {/* mx-80 md:w-3/5 lg:w-1/2*/}
                 <img src={bannerImg} className="w-full rounded-lg shadow-lg" />

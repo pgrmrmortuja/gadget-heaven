@@ -18,19 +18,19 @@ const Navbar = ({ cartItems }) => {
 
   const links = (
     <>
-      <NavLink to={'/'} className="hover:text-gray-300">Home</NavLink>
-      <NavLink to={'dashboard'} className="hover:text-gray-300">Dashboard</NavLink>
-      <NavLink to={'#'} className="hover:text-gray-300">Statistics</NavLink>
-      <NavLink to={'about'} className="hover:text-gray-300">About Us</NavLink>
+      <NavLink to={'/'} className="hover:text-gray-300 font-bold">Home</NavLink>
+      <NavLink to={'dashboard'} className="hover:text-gray-300 font-bold">Dashboard</NavLink>
+      
+      <NavLink to={'about'} className="hover:text-gray-300 font-bold">About Us</NavLink>
     </>
   );
 
   const mobLinks = (
     <>
-      <NavLink to={'/'} className="block py-2 px-4 hover:bg-purple-600">Home</NavLink>
-      <NavLink to={'/dashboard'} className="block py-2 px-4 hover:bg-purple-600">Dashboard</NavLink>
-      <NavLink to={'#'} className="block py-2 px-4 hover:bg-purple-600">Statistics</NavLink>
-      <NavLink to={'about'} className="block py-2 px-4 hover:bg-purple-600">About Us</NavLink>
+      <NavLink to={'/'} className="block py-2 px-4 hover:bg-purple-600 font-bold">Home</NavLink>
+      <NavLink to={'/dashboard'} className="block py-2 px-4 hover:bg-purple-600 font-bold">Dashboard</NavLink>
+      
+      <NavLink to={'about'} className="block py-2 px-4 hover:bg-purple-600 font-bold">About Us</NavLink>
     </>
   );
 
@@ -43,7 +43,7 @@ const Navbar = ({ cartItems }) => {
         }`}
       >
         {/* Logo */}
-        <div className="text-lg font-semibold">
+        <div className="text-lg font-bold">
           Gadget Heaven
         </div>
 

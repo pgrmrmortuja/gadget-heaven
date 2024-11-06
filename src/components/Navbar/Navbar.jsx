@@ -23,6 +23,7 @@ const Navbar = ({ cartItems }) => {
     <>
       <NavLink to="/" className={linkClass}>Home</NavLink>
       <NavLink to="/dashboard" className={linkClass}>Dashboard</NavLink>
+      <NavLink to="/statistics" className={linkClass}>Statistics</NavLink>
       <NavLink to="/about" className={linkClass}>About Us</NavLink>
     </>
   );
@@ -34,6 +35,7 @@ const Navbar = ({ cartItems }) => {
     <>
       <NavLink to="/" className={mobLinkClass}>Home</NavLink>
       <NavLink to="/dashboard" className={mobLinkClass}>Dashboard</NavLink>
+      <NavLink to="/statistics" className={mobLinkClass}>Statistics</NavLink>
       <NavLink to="/about" className={mobLinkClass}>About Us</NavLink>
     </>
   );

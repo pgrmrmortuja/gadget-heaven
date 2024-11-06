@@ -1,0 +1,193 @@
+[
+    {
+        "product_id": 1,
+        "product_title": "Dell XPS 13",
+        "product_image": "https://i.ibb.co.com/CvSzwQS/laptop1.jpg",
+        "category": "laptops",
+        "price": 999.99,
+        "description": "Compact and powerful laptop with stunning display.",
+        "Specification": [
+            "Intel Core i7",
+            "16GB RAM",
+            "512GB SSD",
+            "13.3 inch 4K display"
+        ],
+        "availability": true,
+        "rating": 4.7
+    },
+    {
+        "product_id": 2,
+        "product_title": "Apple MacBook Air M2",
+        "product_image": "https://i.ibb.co.com/tcdqMGh/laptop2.jpg",
+        "category": "laptops",
+        "price": 1199.00,
+        "description": "Lightweight laptop with Apple's M2 chip for amazing performance.",
+        "Specification": [
+            "Apple M2 Chip",
+            "8GB RAM",
+            "256GB SSD",
+            "13.6 inch Retina display"
+        ],
+        "availability": true,
+        "rating": 4.8
+    },
+    {
+        "product_id": 3,
+        "product_title": "HP Spectre x360",
+        "product_image": "https://i.ibb.co.com/7CTfjKj/laptop3.jpg",
+        "category": "laptops",
+        "price": 1399.99,
+        "description": "Versatile 2-in-1 laptop with stunning design and performance.",
+        "Specification": [
+            "Intel Core i7",
+            "16GB RAM",
+            "1TB SSD",
+            "13.3 inch Full HD display"
+        ],
+        "availability": false,
+        "rating": 4.6
+    },
+    {
+        "product_id": 4,
+        "product_title": "Dell XPS 12",
+        "product_image": "https://i.ibb.co.com/mh5gVjw/laptop4.jpg",
+        "category": "laptops",
+        "price": 996.95,
+        "description": "Compact and powerful laptop with stunning display.",
+        "Specification": [
+            "Intel Core i7",
+            "16GB RAM",
+            "512GB SSD",
+            "13.3 inch 4K display"
+        ],
+        "availability": true,
+        "rating": 4.3
+    },
+    {
+        "product_id": 5,
+        "product_title": "Apple MacBook Air M1",
+        "product_image": "https://i.ibb.co.com/txzrCKD/laptop5.jpg",
+        "category": "laptops",
+        "price": 1136.00,
+        "description": "Lightweight laptop with Apple's M2 chip for amazing performance.",
+        "Specification": [
+            "Apple M2 Chip",
+            "8GB RAM",
+            "256GB SSD",
+            "13.6 inch Retina display"
+        ],
+        "availability": true,
+        "rating": 4.0
+    },
+    {
+        "product_id": 6,
+        "product_title": "HP Spectre x350",
+        "product_image": "https://i.ibb.co.com/XsjZrSx/laptop6.jpg",
+        "category": "laptops",
+        "price": 2397.99,
+        "description": "Versatile 2-in-1 laptop with stunning design and performance.",
+        "Specification": [
+            "Intel Core i7",
+            "16GB RAM",
+            "1TB SSD",
+            "13.3 inch Full HD display"
+        ],
+        "availability": false,
+        "rating": 4.1
+    },
+    {
+        "product_id": 7,
+        "product_title": "iPhone 14 Pro",
+        "product_image": "https://i.ibb.co.com/rGJ2m7H/phone1.jpg",
+        "category": "phones",
+        "price": 999.99,
+        "description": "The latest iPhone with an exceptional camera and display.",
+        "Specification": [
+            "A16 Bionic chip",
+            "128GB storage",
+            "6.1 inch Super Retina XDR display"
+        ],
+        "availability": true,
+        "rating": 4.9
+    },
+    {
+        "product_id": 8,
+        "product_title": "Samsung Galaxy S22",
+        "product_image": "https://i.ibb.co.com/Bqp0cG3/phone2.jpg",
+        "category": "phones",
+        "price": 799.99,
+        "description": "High-performance smartphone with an excellent camera.",
+        "Specification": [
+            "Exynos 2200",
+            "8GB RAM",
+            "128GB storage",
+            "6.1 inch Dynamic AMOLED display"
+        ],
+        "availability": true,
+        "rating": 4.5
+    },
+    {
+        "product_id": 9,
+        "product_title": "Google Pixel 7",
+        "product_image": "https://i.ibb.co.com/9ctYCMp/phone3.jpg",
+        "category": "phones",
+        "price": 599.00,
+        "description": "Smartphone with a great camera and pure Android experience.",
+        "Specification": [
+            "Google Tensor G2",
+            "8GB RAM",
+            "128GB storage",
+            "6.3 inch OLED display"
+        ],
+        "availability": true,
+        "rating": 4.6
+    },
+    {
+        "product_id": 10,
+        "product_title": "Apple Watch Series 8",
+        "product_image": "https://i.ibb.co.com/h9zccgP/watch1.jpg",
+        "category": "smart watches",
+        "price": 399.00,
+        "description": "Feature-rich smartwatch with health tracking capabilities.",
+        "Specification": [
+            "GPS",
+            "Blood Oxygen app",
+            "Heart Rate monitoring",
+            "Always-On display"
+        ],
+        "availability": true,
+        "rating": 4.7
+    },
+    {
+        "product_id": 11,
+        "product_title": "Samsung Galaxy Watch 5",
+        "product_image": "https://i.ibb.co.com/0nndPvr/watch2.jpg",
+        "category": "smart watches",
+        "price": 329.99,
+        "description": "Stylish smartwatch with health tracking features.",
+        "Specification": [
+            "GPS",
+            "Heart Rate monitor",
+            "Sleep tracking",
+            "30+ sports modes"
+        ],
+        "availability": true,
+        "rating": 4.5
+    },
+    {
+        "product_id": 12,
+        "product_title": "Garmin Venu 2",
+        "product_image": "https://i.ibb.co.com/W00ygCh/watch3.jpg",
+        "category": "smart watches",
+        "price": 399.99,
+        "description": "Smartwatch with advanced fitness tracking and GPS.",
+        "Specification": [
+            "Built-in GPS",
+            "Health Snapshot feature",
+            "Fitness Age tracking",
+            "Pulse Ox sensor"
+        ],
+        "availability": false,
+        "rating": 4.6
+    }
+]

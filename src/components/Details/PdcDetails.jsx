@@ -17,7 +17,7 @@ const PdcDetails = () => {
         return <div>Product not found</div>;
     }
 
-    const { product_id: currentBookId, product_title, product_image, price, availability, Specification } = gadget;
+    const { product_id: currentBookId, product_title, product_image, price, Specification, description, rating } = gadget;
 
 
     const { addToCart, addToWishlist } = useOutletContext();
@@ -59,7 +59,7 @@ const PdcDetails = () => {
 
                         {/* Product Description */}
                         <p className="text-gray-600 mt-4">
-                            Ultra-slim, high-performance laptop with 13.4-inch Infinity Edge display.
+                            {description}
                         </p>
 
                         {/* Specifications */}
@@ -83,7 +83,7 @@ const PdcDetails = () => {
                                 <span className="text-yellow-400 text-xl">★</span>
                                 <span className="text-yellow-400 text-xl">★</span>
                                 <span className="text-gray-300 text-xl">★</span>
-                                <span className="text-gray-600 text-sm ml-1">(4.8)</span>
+                                <span className="text-gray-600 text-sm ml-1">({rating})</span>
                             </div>
 
                             {/* Buttons */}

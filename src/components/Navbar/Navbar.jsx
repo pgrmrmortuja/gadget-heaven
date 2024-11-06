@@ -28,7 +28,7 @@ const Navbar = ({ cartItems }) => {
   );
 
   const mobLinkClass = ({ isActive }) =>
-    isActive ? 'bg-purple-600 text-white font-bold' : 'hover:bg-purple-600 font-bold';
+    isActive ? 'block bg-purple-600 text-white font-bold' : 'block hover:bg-purple-600 font-bold';
 
   const mobLinks = (
     <>

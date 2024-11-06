@@ -46,7 +46,7 @@ const Navbar = ({ cartItems }) => {
           }`}
       >
         {/* Logo */}
-        <div className="text-2xl font-bold">
+        <div className="text-xl font-bold">
           Gadget Heaven
         </div>
 
